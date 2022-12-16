@@ -1,2 +1,18 @@
+.holder{
+    display:grid;
+    grid-template-columns: repeat(2, 200px);
+    grid-template-rows: repeat(2, 200px);
+    row-gap: 10px;
+    column-gap: 10px;
+    background-color: bisque;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    background-color: aqua;
+    height: 100px;
+}
 
 /* Your CSS Code here. */
